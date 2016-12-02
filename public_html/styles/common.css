@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2015, 12:51:43 PM
+    Author     : Jenn
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #fff;
+
+}
+
+a {
+    color: #1166bb;
+    text-decoration: none;
+}
+a:visited {
+    color: #123f6b
+}
+a:hover{
+    color: #3590e9;
+}
+
+.results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results th {
+    font-weight: bold;
+    text-align: left;
+}
+
+.results tr {
+    height: 40px;
+}
+
+.calendar table, .calendar th, .calendar td {
+    border: 1px solid #3590e9;
+}
+
+.calendar table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th {
+    height: 40px;
+    background-color: #eee;
+}
+
+.calendar td {
+    height: 80px;
+    vertical-align: top;
+}
+
+.calendar h3 {
+    text-align: center;
+}
+
+.calendar p {
+    font-size: .85em;
+}
+
+
+#pagewrapper {
+    
+}
+
+#topbar {
+    background-color: #000;
+    color: #ddd;
+    height: 45px;
+    width: 100%;
+}
+
+#loginbar p {
+    margin: 0;
+}
+
+#loginbar a {
+    color: #ddd;;
+    text-decoration: none;
+}
+#loginbar a:visited {
+    color: #ddd;
+}
+#loginbar a:hover{
+    color: #fff;
+}
+
+#footer {
+    clear: both;
+}
+
+#footer p {
+    font-size: .9em;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.submitbutton {
+    padding: 5px;
+}
+
+.formwarning {
+    font-size: .9em;
+    font-weight: bold;
+    color: red;
+}
+
+.darkred {
+    color: maroon;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button, .button:visited {
+    font-size: 0.9em;
+    padding: 5px 10px;
+    background: #1166bb;
+    color: #ffffff;
+}
+
+.button:hover, .button:focus {
+    color: #ffffff;
+    background: #3590e9;
+    text-decoration: none;
+}
+
+.huge {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.whitebg {
+    background-color: #fff;
+}
+
+.ltgreybg {
+    background-color: #eee;
+}
+
+.smaller {
+    font-size: .9em;
+}
+
